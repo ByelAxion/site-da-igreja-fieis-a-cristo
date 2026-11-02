@@ -107,7 +107,7 @@ function App() {
             <div className="eyebrow"><span></span> SEJA BEM-VINDO À NOSSA CASA</div>
             <h1>Igreja <em>Fiéis</em><br/>a Cristo</h1>
             <div className="gold-rule"></div>
-            <p className="hero-verse">“Jesus ama você.”</p>
+            <p className="hero-verse">Jesus ama você</p>
             <p className="hero-text">Há lugar para você aqui. Venha compartilhar momentos de fé, renovar sua esperança e caminhar conosco na presença de Deus.</p>
             <a className="button button-gold" href="#programacao">Conheça nossos cultos <ArrowDown size={16}/></a>
             <div className="hero-note"><Heart size={15}/> Você é muito bem-vindo.</div>
@@ -197,6 +197,30 @@ function App() {
         <span>“O Senhor te abençoe e te guarde.” — Números 6:24</span>
       </footer>
 
+        <a
+  href="https://www.instagram.com/___igrejafieisacristo?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw=="
+  className="instagram-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Acompanhe a Igreja Fiéis a Cristo no Instagram"
+  title="Siga nossa igreja no Instagram"
+>
+  <svg
+    viewBox="0 0 24 24"
+    width="27"
+    height="27"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+  </svg>
+</a>
+
       {modal === 'presence' && <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" onClick={() => setModal(null)}>
         <div className="presence-modal" onClick={e => e.stopPropagation()}>
           <button className="modal-close icon-button" onClick={() => setModal(null)} aria-label="Fechar"><X size={19}/></button>
@@ -225,6 +249,7 @@ function App() {
       </div>}
     </div>
   );
+
 }
 
 createRoot(document.getElementById('root')).render(<App />);
