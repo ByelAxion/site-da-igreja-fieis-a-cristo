@@ -24,4 +24,6 @@ app.get('/api/programacao', (_req, res) => {
 app.get('/', (_req, res) => res.json({ service: 'Igreja Fiéis a Cristo API', health: '/api/health' }));
 app.use((_req, res) => res.status(404).json({ error: 'Rota não encontrada' }));
 
-app.listen(PORT, () => console.log(`API da igreja rodando na porta ${PORT}`));
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`API da igreja rodando na porta ${PORT}`);
+});
