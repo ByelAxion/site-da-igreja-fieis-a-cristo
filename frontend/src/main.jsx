@@ -9,17 +9,17 @@ import './styles.css';
 
 const events = [
   { day: 0, name: 'Domingo', type: 'Culto', start: '09:30', end: '11:30', icon: Church },
-  { day: 2, name: 'Terça-feira', type: 'Oração', start: '09:00', end: '10:00', icon: Heart },
+  { day: 2, name: 'Segunda-feira', type: 'Oração', start: '09:00', end: '10:00', icon: Heart },
   { day: 3, name: 'Quarta-feira', type: 'Culto', start: '19:30', end: '21:00', icon: Church },
   { day: 6, name: 'Sábado', type: 'Oração', start: '09:00', end: '10:00', icon: Heart },
 ];
 const photos = [
-  { title: 'Comunhão e união', url: 'https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&w=1200&q=85' },
-  { title: 'Um lugar de fé', url: 'https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=1200&q=85' },
-  { title: 'Louvor e adoração', url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=85' },
-  { title: 'Momentos de oração', url: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1200&q=85' },
-  { title: 'Família da fé', url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=85' },
-  { title: 'Esperança renovada', url: 'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=85' },
+  { title: 'Comunhão e união', url: '01.png' },
+  { title: 'Um lugar de fé', url: '02.png' },
+  { title: 'Louvor e adoração', url: '03.png' },
+  { title: 'Momentos de oração', url: '04.png' },
+  { title: 'Família da fé', url: '05.png' },
+  { title: 'Esperança renovada', url: '06.png' },
 ];
 
 function getNextEvent(now = new Date()) {
