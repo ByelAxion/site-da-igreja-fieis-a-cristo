@@ -16,9 +16,9 @@ const events = [
 const photos = [
   { title: 'Comunhão e união', url: '01.png' },
   { title: 'Um lugar de fé', url: '02.png' },
-  { title: 'Louvor e adoração', url: '03.png' },
+  { title: 'Louvor e adoração', url: '05.png' },
   { title: 'Momentos de oração', url: '04.png' },
-  { title: 'Família da fé', url: '05.png' },
+  { title: 'Família da fé', url: '03.png' },
   { title: 'Esperança renovada', url: '06.png' },
 ];
 
